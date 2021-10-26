@@ -27,3 +27,7 @@
 ===========Link website============
 
 http://bc14-movie-project.surge.sh/
+
+===========Chú thích============
+
+Bấm vào Đăng nhập sẽ tới trang đăng nhập dành cho Admin, khi bấm vào Tài Khoản thì vào trang đăng nhập của user

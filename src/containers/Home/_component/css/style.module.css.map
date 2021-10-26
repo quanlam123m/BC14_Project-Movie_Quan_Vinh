@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,AAAA,OAAO,CAAC,UAAU,CAAC;EAC5B,KAAK,EAAE,cAAc;CACtB",
+    "sources": [
+        "../Slick-react/style.module.scss"
+    ],
+    "names": [],
+    "file": "style.module.css"
+}

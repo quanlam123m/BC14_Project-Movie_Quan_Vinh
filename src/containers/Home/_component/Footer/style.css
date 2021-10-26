@@ -1,0 +1,37 @@
+
+/* ====== Reponsive ====== */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* iPads (portrait and landscape) */
+  }
+  
+  /*iPhone 6 Portrait*/
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    body,
+    html {
+      overflow-x: hidden;
+    }
+  }
+  
+  /*iPhone 6 landscape*/
+  @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+  }
+  
+  /*iPhone 6+ Portrait*/
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  }
+  
+  /*iPhone 6+ landscape*/
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+  }
+  
+  @media only screen and (min-width: 767px) {
+    /* Desktops and laptops */
+  }
+  
+  @media screen and (max-width: 767.98px) {
+    body,
+    html {
+      overflow-x: hidden;
+    }
+  }

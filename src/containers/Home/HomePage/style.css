@@ -1,0 +1,164 @@
+.rap-logo-tab {
+  width: 70px;
+  height: 70px;
+}
+
+.nav-pills .nav-link {
+  opacity: 0.3;
+}
+.nav-pills .nav-link.active {
+  background-color: transparent !important;
+  box-shadow: 3px 3px 6px 1px #888888;
+  opacity: 1;
+}
+
+#tab .tab-body,
+#tab {
+  color: #cccccc;
+}
+
+#tab .card-header {
+  background-color: rgb(51, 53, 69);
+}
+
+#tab .card-body {
+  color: rgb(34, 34, 34);
+}
+
+#tab .ten-rap {
+  width: 30%;
+  height: 44px;
+  line-height: 44px;
+  font-weight: 500;
+}
+#tab .lich-chieu {
+  width: 70%;
+}
+
+#tab .suat-chieu {
+  text-align: center;
+  width: 100px;
+  border-radius: 3px;
+  border: 1px solid rgb(51, 53, 69);
+  color: #4abd5d;
+  cursor: pointer;
+}
+
+#tab .suat-chieu:hover {
+  background-color: #4abd5d;
+  border-color: #4abd5d;
+  color: white;
+}
+
+#tab .ten-rap .rating-icon {
+  font-size: 30px;
+  height: 40px;
+  width: 20% !important;
+}
+
+#tab .ten-rap-text {
+  width: 80%;
+}
+
+#tab .rap-phim {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 20px;
+}
+
+.tab-content{
+ border: 1px solid #cccccc;
+}
+
+
+/* ====== Reponsive ====== */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPads (portrait and landscape) */
+ 
+}
+
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  body,
+  html {
+    /* overflow-x: hidden; */
+    overflow: scroll;
+  }
+  
+  #tab .ten-rap {
+    width: 50%;
+  }
+  #tab .lich-chieu {
+    width: 50%;
+  }
+
+  #tab .ten-rap .rating-icon {
+    font-size: 20px;
+    height: 20px;
+    position: relative;
+    top: 11px;
+  }
+  #tab .rap-logo-tab {
+    width: 30px;
+    height: 30px;
+  }
+
+  #tab .card-header{
+    font-size: 10px;
+  }
+  #tab .ten-rap-text {
+    font-size: 10px;
+}
+}
+
+/*iPhone 6 landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+}
+
+/*iPhone 6+ Portrait*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+}
+
+/*iPhone 6+ landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 767px) {
+  /* Desktops and laptops */
+}
+
+@media screen and (max-width: 767.98px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  #tab .ten-rap {
+    width: 50%;
+  }
+  #tab .lich-chieu {
+    width: 50%;
+  }
+
+  #tab .ten-rap .rating-icon {
+    font-size: 20px;
+    height: 20px;
+    position: relative;
+    top: 11px;
+  }
+  #tab .rap-logo-tab {
+    width: 30px;
+    height: 30px;
+  }
+  #tab .card-header{
+    font-size: 10px;
+  }
+  #tab .ten-rap-text {
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width: 667px) {
+}
+
+@media screen and (max-width: 575.98px) {
+}

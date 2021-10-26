@@ -1,0 +1,225 @@
+.tabBtn:hover,
+.tabBtn:focus {
+  text-decoration: none;
+  outline: none;
+}
+.mypage {
+  padding-bottom: 300px;
+  /* background-image: url(/asset/img/mypage-bg.jpg); */
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.vertical-tab {
+  display: table;
+  color: #1f2533;
+  width: 100%;
+}
+.vertical-tab .nav-tabs {
+  display: table-cell;
+  width: 25%;
+  min-width: 25%;
+  border: none;
+  vertical-align: top;
+}
+.vertical-tab .nav-tabs li {
+  float: none;
+}
+.vertical-tab .nav-tabs li .tabBtn {
+  color: #555;
+  background: #fff;
+  font-size: 16px;
+  /* font-weight: 500; */
+  letter-spacing: 0.5px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  padding: 8px 7px 7px;
+  margin: 0 10px 12px 0;
+  border-radius: 30px;
+  border: 1px solid rgba(31, 37, 51, 0.5);
+  box-shadow: 4px -5px 3px rgb(0 0 0 / 25%);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: all 0.5s ease 0s;
+}
+.vertical-tab .nav-tabs li .tabBtn:hover,
+.vertical-tab .nav-tabs li .tabBtn.active,
+.vertical-tab .nav-tabs li .tabBtn.active:hover {
+  color: #1f2533;
+  background: #fff;
+  border: 1px solid rgb(248, 68, 100);
+  box-shadow: 4px -5px 3px rgb(0 0 0 / 25%);
+}
+.vertical-tab .nav-tabs li .tabBtn:before {
+  content: "";
+  background-color: rgb(248, 68, 100);
+  height: 0%;
+  width: 100%;
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+.vertical-tab .nav-tabs li .tabBtn:hover:before,
+.vertical-tab .nav-tabs li .tabBtn.active:before,
+.vertical-tab .nav-tabs li .tabBtn.active:hover:before {
+  height: 7%;
+  color: rgb(248, 68, 100);
+}
+.vertical-tab .tab-content {
+  color: #777;
+  background: #f3f1f8;
+  font-size: 14px;
+  /* font-weight: 500; */
+  line-height: 21px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 4px -5px 3px rgb(0 0 0 / 25%);
+  display: table-cell;
+}
+.vertical-tab .tab-content h3 {
+  color: rgb(248, 68, 100);
+  font-size: 22px;
+  /* font-weight: 500; */
+  /* text-transform: capitalize; */
+  margin: 0 0 5px;
+}
+
+.inputFormMyPage {
+  width: 350px;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  width: 94%;
+  margin: 0 auto;
+  height: 136px;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+.movie-poster {
+  width: 200px;
+  height: 270px;
+}
+
+.update-result {
+  text-align: left;
+  color: rgb(248, 68, 100);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.show-error {
+  width: 239px;
+  border-radius: 3px;
+  margin-top: 5px;
+  position: relative;
+  left: 0px;
+  color: rgb(248, 68, 100);
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 479px) {
+  .vertical-tab .nav-tabs {
+    width: 100%;
+    display: block;
+  }
+  .vertical-tab .nav-tabs li .tabBtn {
+    padding: 10px 25px 9px;
+    margin: 0 0 12px;
+  }
+  .vertical-tab .tab-content {
+    font-size: 14px;
+    padding: 15px;
+    display: block;
+  }
+}
+
+
+/* ====== Reponsive ====== */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPads (portrait and landscape) */
+}
+
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  body,
+  html {
+    /* overflow-x: hidden; */
+    overflow: scroll;
+  }
+  .vertical-tab .nav-tabs {
+    width: 100%;
+    display: block;
+  }
+  .vertical-tab .nav-tabs li .tabBtn {
+    padding: 10px 25px 9px;
+    margin: 0 0 12px;
+  }
+  .vertical-tab .tab-content {
+    font-size: 14px;
+    padding: 15px;
+    display: block;
+  }
+
+  .inputFormMyPage {
+    width: 280px;
+  }
+  .mypage {
+    padding-bottom: 70px;
+  }
+}
+
+/*iPhone 6 landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+}
+
+/*iPhone 6+ Portrait*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+}
+
+/*iPhone 6+ landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 767px) {
+  /* Desktops and laptops */
+  
+}
+
+@media screen and (max-width: 767.98px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+  .vertical-tab .nav-tabs {
+    width: 100%;
+    display: block;
+  }
+  .vertical-tab .nav-tabs li .tabBtn {
+    padding: 10px 25px 9px;
+    margin: 0 0 12px;
+  }
+  .vertical-tab .tab-content {
+    font-size: 14px;
+    padding: 15px;
+    display: block;
+  }
+  .mypage {
+    padding-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+}
+
+@media screen and (max-width: 575.98px) {
+}
+

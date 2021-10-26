@@ -1,0 +1,7 @@
+.movieTitle {
+    white-space: nowrap; 
+    width: 16rem; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  

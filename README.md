@@ -5,6 +5,7 @@
     + Navbar
     + Detail-movie
     + Trang đặt vé
+    + User Page
     + Footer
     + Page Not Found
 
